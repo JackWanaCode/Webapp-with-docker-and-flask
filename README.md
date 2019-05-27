@@ -30,9 +30,7 @@ OS ubuntu 18 (It would be wrong on ubuntu 14, docker ce is no longer support 14 
 
         sudo apt-get update
 
-        sudo apt-get install docker-ce
-
-        docker-ce-cli containerd.io
+        sudo apt-get install docker-ce docker-ce-cli containerd.io
 
         make sure your verify your Docker CE is installed:
         sudo docker run hello-world
@@ -47,7 +45,7 @@ OS ubuntu 18 (It would be wrong on ubuntu 14, docker ce is no longer support 14 
 
         docker-compose --version
 
-    if out put is like this:
+    if output is like this:
     docker-compose version 1.24.0, build 1110ad01
     you can go next.
 
@@ -69,9 +67,9 @@ Up:
 
     i. Run "docker ps -a" and find id of Image "app"
 
-    ii. Run "docker exec -ti <id> bash to access container app
+    ii. Run "docker exec -ti [id] bash" to access container app
 
-    iii. Run "python3 indeed_scrape.py" to update data for mysql. Please note that, you don't need to run it db database build and run successfully in previous steps.
+    iii. Run "python3 indeed_scrape.py" to update data for mysql. Please note that, you don't need to run it AGAIN if db database was built and run successfully in previous steps. Check it by "docker ps -a"
 
     iv. Run "service nginx start"
 
