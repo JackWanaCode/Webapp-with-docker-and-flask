@@ -30,9 +30,7 @@ OS ubuntu 18 (It would be wrong on ubuntu 14, docker ce is no longer support 14 
 
         sudo apt-get update
 
-        sudo apt-get install docker-ce
-
-        docker-ce-cli containerd.io
+        sudo apt-get install docker-ce docker-ce-cli containerd.io
 
         make sure your verify your Docker CE is installed:
         sudo docker run hello-world
