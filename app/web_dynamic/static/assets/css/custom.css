@@ -1,0 +1,21 @@
+#already-logged-in {
+    text-align: right;
+    font-size: 10px;
+}
+
+h1 {
+    display: block;
+    margin-block-start: 0px !important;
+    margin-block-end: 0px; !important;
+    margin-left: 10px;
+    padding: 0;
+}
+
+#btn btn-outline-secondary dropdown-toggle {
+    box-sizing: 2px !important;
+}
+
+#remember{
+    float: left !important;
+    margin-left: 25px !important;
+}
