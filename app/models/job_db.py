@@ -9,7 +9,7 @@ from sqlalchemy.orm import backref
 
 
 class Job_db(BaseModel, Base):
-    """Amenity class handles all application amenities"""
+    """Job_db class handles all application amenities"""
     __tablename__ = 'job_db'
     company = Column(String(60), nullable=False)
     location = Column(String(60), nullable=False)
