@@ -67,7 +67,7 @@ Up:
 
     i. Run "docker ps -a" and find id of Image "app"
 
-    ii. Run "docker exec -ti <id> bash to access container app
+    ii. Run "docker exec -ti [id] bash" to access container app
 
     iii. Run "python3 indeed_scrape.py" to update data for mysql. Please note that, you don't need to run it if db database built and run successfully in previous steps. Check it by "docker ps -a"
 
