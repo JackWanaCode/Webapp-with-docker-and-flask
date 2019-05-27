@@ -47,7 +47,7 @@ OS ubuntu 18 (It would be wrong on ubuntu 14, docker ce is no longer support 14 
 
         docker-compose --version
 
-    if out put is like this:
+    if output is like this:
     docker-compose version 1.24.0, build 1110ad01
     you can go next.
 
@@ -71,7 +71,7 @@ Up:
 
     ii. Run "docker exec -ti <id> bash to access container app
 
-    iii. Run "python3 indeed_scrape.py" to update data for mysql. Please note that, you don't need to run it db database build and run successfully in previous steps.
+    iii. Run "python3 indeed_scrape.py" to update data for mysql. Please note that, you don't need to run it if db database built and run successfully in previous steps. Check it by "docker ps -a"
 
     iv. Run "service nginx start"
 
