@@ -1,4 +1,8 @@
-OS ubuntu 18 (It would be wrong on ubuntu 14, docker ce is no longer support 14 version)
+# WEB APPLICATION BY USING FLASK AND DOCKER
+
+The project focus on how to use Dockerfile and docker-compose.yml to create containers and automate deploying website.
+
+Works with MacOS and ubuntu 18 (It would be wrong on ubuntu 14, docker ce is no longer support 14 version). I haven't test it on Windows.
 
 1. install docker ce: (you will need refer the link for detail https://docs.docker.com/install/linux/docker-ce/ubuntu/)
 
